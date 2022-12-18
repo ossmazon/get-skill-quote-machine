@@ -47,17 +47,17 @@ function App() {
   }
 
   return (
-    <div style={{backgroundColor:color, minHeight:"100vh"}}> 
-    <div class="container-fluid p-5" >
+    <div style={{backgroundColor:color, minHeight:"100vh"}}  > 
+    <div className="container-fluid p-5">
       <div class="row justify-content-center ">
 
-        <div class="card col-sm-8 col-md-6 col-lg-4">
+        <div class="card col-sm-8 col-md-6 col-lg-4" id="quote-box">
 
           <div class="card-body " style={{color: color}}>
             {randomQuote ? (
               <>
-                <p class="card-text text-center">&quot;{randomQuote.text}&quot;</p>
-                <div class="card-title text-end">-{randomQuote.author || "no author"}</div>
+                <p class="card-text text-center" id="text">&quot;{randomQuote.text}&quot;</p>
+                <div class="card-title text-end" id="author">-{randomQuote.author || "no author"}</div>
 
               </>
             ) : (
@@ -65,7 +65,7 @@ function App() {
             )}
             <div class="row">
               <div class="col text-start" >
-                <a href={'https://twitter.com/intent/tweet?hashtags=quotesGenerator&related=freecodecamp&text=' +
+                <a id="tweet-quote" href={'https://twitter.com/intent/tweet?hashtags=quotesGenerator&related=freecodecamp&text=' +
                   encodeURIComponent(
                     '"' +randomQuote.text + '"'+' '+'-'+ randomQuote.author
                   )
@@ -77,7 +77,7 @@ function App() {
 
               </div>
               <div class="col text-end">
-                <button    onClick={getNewQuote} class="btn btn-sm text-white" type="button" style={{background:color}}>New Quote</button>
+                <button  id="new-quote"  onClick={getNewQuote} class="btn btn-sm text-white" type="button" style={{background:color}}>New Quote</button>
               </div>
 
             </div>
