@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/get-skill-quote-machine/static/css/main.073c9b0a.css",
-    "main.js": "/get-skill-quote-machine/static/js/main.ba0776a7.js",
+    "main.css": "/get-skill-quote-machine/static/css/main.ca57846c.css",
+    "main.js": "/get-skill-quote-machine/static/js/main.66d47faa.js",
     "static/js/787.28cb0dcd.chunk.js": "/get-skill-quote-machine/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/get-skill-quote-machine/index.html",
-    "main.073c9b0a.css.map": "/get-skill-quote-machine/static/css/main.073c9b0a.css.map",
-    "main.ba0776a7.js.map": "/get-skill-quote-machine/static/js/main.ba0776a7.js.map",
+    "main.ca57846c.css.map": "/get-skill-quote-machine/static/css/main.ca57846c.css.map",
+    "main.66d47faa.js.map": "/get-skill-quote-machine/static/js/main.66d47faa.js.map",
     "787.28cb0dcd.chunk.js.map": "/get-skill-quote-machine/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ba0776a7.js"
+    "static/css/main.ca57846c.css",
+    "static/js/main.66d47faa.js"
   ]
 }
